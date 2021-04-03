@@ -17,6 +17,9 @@ Fetching returns: This is something new which needs explanation. Please refer to
 
 Formula for calculating cumulative returns is SUM((CURRENT_PRICE[ticker] - AVERAGE_BUY_PRICE[ticker]) * CURRENT_QUANTITY[ticker]) So in the example, cumulative returns will be, (1843.45 - 1833.45) * 5 + (329.25 - 319.25) * 5 + (535.00 - 438.57) * 7 = Rs. 775.01. Since in API you don’t have access to current price of any security, please assume current price is always Rs. 100 for any security.
 
+
+
+
 Small stock portfolio sample code written in NodeJs and express
 
 Solution with routes:
